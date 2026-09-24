@@ -1067,3 +1067,105 @@ textarea:focus-visible {
 .card-media.app-icon-media::after {
   content: none;
 }
+
+/* ===================================
+   RECRUITER-FIRST LAYOUT — Sep 2026
+   =================================== */
+.hero-cta {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-cta .btn i {
+  margin-right: 6px;
+}
+
+.project-highlight {
+  font-size: 0.88rem;
+  color: var(--light-gray);
+  margin-top: var(--space-2, 8px);
+  display: block !important;
+  -webkit-line-clamp: unset !important;
+}
+
+.project-highlight strong {
+  color: var(--gold);
+}
+
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-4, 16px);
+}
+
+.beyond-skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-4, 16px);
+  margin: var(--space-5, 24px) 0;
+}
+
+.skill-group {
+  background: var(--medium-gray);
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  border-radius: var(--radius-md, 12px);
+  padding: var(--space-4, 16px) var(--space-5, 24px);
+  text-align: left;
+}
+
+.skill-group h3 {
+  font-size: 1rem;
+  color: var(--gold);
+  margin-bottom: var(--space-3, 12px);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  color: var(--light-gray);
+  background: rgba(212, 175, 55, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  white-space: nowrap;
+}
+
+.impact-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: var(--space-4, 16px);
+  margin-top: var(--space-5, 24px);
+  text-align: center;
+}
+
+.impact-row div {
+  background: var(--medium-gray);
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  border-radius: var(--radius-md, 12px);
+  padding: var(--space-4, 16px);
+}
+
+.impact-row strong {
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: var(--gold);
+}
+
+.impact-row span {
+  font-size: 0.85rem;
+  color: var(--light-gray);
+}
+
+.sub-header {
+  margin-bottom: var(--space-4, 16px);
+}

@@ -1,35 +1,40 @@
 # Etefworkie Melaku — Portfolio
 
-Personal portfolio website of **Etefworkie Melaku** — web & mobile developer.
+**Live site:** https://etef738.github.io/portfolio/
 
-A responsive, single-page portfolio built with plain HTML, CSS, and JavaScript
-(no build step). Highlights skills, projects, professional experience, and a
-Web3Forms-powered contact form.
+Personal portfolio of **Etefworkie Melaku**, a mobile and web application developer.
+It showcases published and in-progress apps, technical skills, experience, and
+storytelling work, with a working contact form.
 
-## Structure
+## Featured work
+
+- **Rhythm Journal** — privacy-first iOS journaling app, [live on the App Store](https://apps.apple.com/ca/app/rhythm-journal/id6794914551)
+- **Hyremot** — AI resume analysis and job-matching platform, in beta on web, iOS, and Android
+- **Snap & Shop** — camera-based product recognition app for [iOS](https://github.com/melakunet/snap-shop) and [Android](https://github.com/melakunet/SnapShop)
+- **InvoiceElite** — invoicing platform for freelancers and small businesses
+
+## Built with
+
+Plain HTML, CSS, and JavaScript (no build step), hosted on GitHub Pages.
+The contact form uses [Web3Forms](https://web3forms.com).
 
 ```
 index.html        # Page markup (all sections)
 css/web.css       # Styles
-js/script.js      # Loader, nav, scroll reveals, stats counter, contact form
-assets/icons/     # Tool & framework icons
-assets/images/    # Profile and project images
+js/script.js      # Loader, navigation, scroll reveals, stats counter, contact form
+assets/icons/     # Tool and framework icons
+assets/images/    # Profile, app icons, channel and book images
 ```
 
 ## Run locally
 
-It's a static site — just open `index.html` in a browser, or serve the folder:
+It's a static site. Serve the folder with any static server, for example:
 
 ```bash
-# any static server works, e.g.
-npx serve .
+python -m http.server 8000
 ```
 
-## Before going live
-
-- Add your **Web3Forms access key** in `index.html` (contact form).
-- Add the missing project/story images to `assets/images/`.
-- (Optional) Re-enable the Showcase video section with a real YouTube ID.
+Then open http://localhost:8000.
 
 ---
-© 2026 Etefworkie Melaku · [novelsnet.com](https://www.novelsnet.com)
+© 2026 Etefworkie Melaku
